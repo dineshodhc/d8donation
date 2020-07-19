@@ -1,0 +1,5 @@
+name: donation
+core: 8.x
+type: module
+description: used to customize cart for donation
+package: Donation

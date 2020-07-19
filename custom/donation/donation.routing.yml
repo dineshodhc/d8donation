@@ -1,0 +1,9 @@
+donation.config_donation_mail:
+  path: 'admin/config/system/config_donation_mail'
+  defaults:
+    _form: '\Drupal\donation\Form\DonationConfigForm'
+    _title: 'Mail for the sucessful Donation'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route_true: TRUE

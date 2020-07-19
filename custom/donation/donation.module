@@ -1,0 +1,15 @@
+<?php
+
+function donation_commerce_inline_form_alter(array &$inline_form, \Drupal\Core\Form\FormStateInterface $form_state, array &$complete_form)
+{
+  // echo "hello";
+  // exit;
+
+}
+
+function donation_checkout_commerce_checkout_complete($order) {
+  // No example.
+ //\Drupal::logger('pdf_checkout')->info('Hook called.');
+ echo "dinesh";
+ exit;
+}

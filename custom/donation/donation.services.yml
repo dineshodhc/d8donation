@@ -1,0 +1,11 @@
+services:
+  donation.order_complete:
+    class: Drupal\donation\EventSubscriber\OrderCompleteSubscriber
+    arguments: ['@entity_type.manager']
+    tags:
+      - { name: event_subscriber }
+  donation.order_item_comparision_fields:
+    class: Drupal\donation\EventSubscriber\OrderItemComparisonFieldsEventSubscriber
+    tags:
+      - { name: event_subscriber }
+
